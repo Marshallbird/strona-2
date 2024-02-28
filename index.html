@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3site</title>
+
+    <script src="https://kit.fontawesome.com/a2b61aac22.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href=".//css/style.css">
+
+</head>
+
+<body>
+    <nav class="nav ">
+
+        <button class="burger-btn">
+            <div class="burger-btn__box">
+                <div class="burger-btn__bars"></div>
+            </div>
+        </button>
+
+        <div class="nav-box ">
+            <div class="nav-box__items">
+                <a href="#games" onclick="deleteAnimation()" class="nav-box__item">#1 Lorem</a>
+                <a href="#places" onclick="deleteAnimation()" class="nav-box__item">#2 Lorem</a>
+                <a href="#reviews" onclick="deleteAnimation()" class="nav-box__item">#3 Lorem</a>
+                <a href="#" onclick="deleteAnimation()" class="nav-box__item">#4 Lorem</a>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <header class="header section">
+        <h1 class="header__title">LoremCity</h1>
+        <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <a href="#offers" class="header__btn btn-special-animation">explore</a>
+        <div class="white-block white-block__left"></div>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+        <section class="city section-padding section white-section">
+            <div class="wrapper">
+                <h2 class="section-title">Lorem ipsum dolor sit.</h2>
+                <div class="city__box">
+                    <div class="city__box-img">
+
+                        <img src="./img/citySmall.jpg" alt="Miasto przyszłości" class="city__img">
+                    </div>
+                    <div class="city__box-txt">
+                        <h3 class="city__title">Lorem, ipsum dolor.</h3>
+                        <p class="city__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est unde
+                            nisi voluptatem? Consequatur, dolor.</p>
+                    </div>
+                </div>
+                <div class="city__box">
+                    <div class="city__box-img city__box-img--right">
+                        <img src="./img/neonAdSmall.jpg" alt="Neony" class="city__img">
+                    </div>
+                    <div class="city__box-txt  city__box-txt--right">
+                        <h3 class="city__title">Lorem, ipsum dolor.</h3>
+                        <p class="city__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est unde
+                            nisi voluptatem? Consequatur, dolor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero-img section">
+
+            <div class="white-block white-block__left"></div>
+            <div class="white-block white-block__right"></div>
+            <p class="hero-img__title">Lorem, ipsum dolor.</p>
+            <hr>
+            <p class="hero-img__txt">Lorem ipsum dolor sit amet consectetur.</p>
+            <hr>
+
+        </section>
+
+        <section class="game section-padding section white-section" id="games">
+
+
+            <h2 class="section-title">Lorem, ipsum dolor.</h2>
+
+            <div class="wrapper">
+                <div class="game__cards">
+
+                    <div class="game__card" onclick="void(0)">
+
+                        <div class="game__card-img game__card-img--first">
+                            <h3 class="game__card-img-title">Lorem #1</h3>
+                            <p class="game__card-img-info"><i class="fas fa-angle-double-right"></i>more info...</p>
+                        </div>
+
+                        <div class="game__card-info">
+                            <div class="game__card-info-title">Lorem#1</div>
+                            <ul class="game__card-info-list">
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                            </ul>
+
+                            <button class="game__card-info-btn btn-special-animation">enter now</button>
+
+                        </div>
+
+                    </div>
+                    <div class="game__card" onclick="void(0)">
+
+                        <div class="game__card-img game__card-img--second">
+                            <h3 class="game__card-img-title">Lorem #2</h3>
+                            <p class="game__card-img-info"><i class="fas fa-angle-double-right"></i>more info...</p>
+                        </div>
+
+                        <div class="game__card-info">
+                            <div class="game__card-info-title">Lorem#2</div>
+                            <ul class="game__card-info-list">
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                            </ul>
+
+                            <button class="game__card-info-btn btn-special-animation">enter now</button>
+
+                        </div>
+
+                    </div>
+                    <div class="game__card" onclick="void(0)">
+
+                        <div class="game__card-img game__card-img--third">
+                            <h3 class="game__card-img-title">Lorem #3</h3>
+                            <p class="game__card-img-info"><i class="fas fa-angle-double-right"></i>more info...</p>
+                        </div>
+
+                        <div class="game__card-info">
+                            <div class="game__card-info-title">Lorem#3</div>
+                            <ul class="game__card-info-list">
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                                <li class="game__card-info-list-item">Lorem, ipsum dolor.</li>
+                            </ul>
+                            <button class="game__card-info-btn btn-special-animation">enter now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="places section section-padding" id="places">
+
+            <div class="white-block white-block__right"></div>
+            <div class="white-block white-block__left"></div>
+
+            <h2 class="section-title">Lorem ipsum dolor sit.</h2>
+
+            <div class="wrapper">
+
+                <div class="places__box">
+                    <div class="places__option">
+                        <img src="./img/miami-small.jpg" alt="palm trees" class="places__option-img">
+                        <div class="places__option-info">
+                            <h3 class="places__option-title">Miami</h3>
+                            <p class="places__option-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+                                cumque animi sed architecto voluptatem ea, ullam fugiat asperiores perspiciatis
+                                possimus?</p>
+                            <p class="places__option-txt">Lorem ipsum dolor sit amet consectetur.</p>
+                            <button class="places__option-btn btn-special-animation">choose</button>
+                        </div>
+                    </div>
+                    <div class="places__option">
+                        <img src="./img/new-york-small.jpg" alt="palm trees"
+                            class="places__option-img places__option-img--right">
+                        <div class="places__option-info">
+                            <h3 class="places__option-title">New York</h3>
+                            <p class="places__option-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+                                cumque animi sed architecto voluptatem ea, ullam fugiat asperiores perspiciatis
+                                possimus?</p>
+                            <p class="places__option-txt">Lorem ipsum dolor sit amet consectetur.</p>
+                            <button class="places__option-btn btn-special-animation">choose</button>
+                        </div>
+                    </div>
+                    <div class="places__option">
+                        <img src="./img/sydney-small.jpg" alt="palm trees" class="places__option-img">
+                        <div class="places__option-info">
+                            <h3 class="places__option-title">Sydney</h3>
+                            <p class="places__option-txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+                                cumque animi sed architecto voluptatem ea, ullam fugiat asperiores perspiciatis
+                                possimus?</p>
+                            <p class="places__option-txt">Lorem ipsum dolor sit amet consectetur.</p>
+                            <button class="places__option-btn btn-special-animation">choose</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews section section-padding white-section" id="reviews">
+            <h2 class="section-title">Lorem ipsum dolor sit.</h2>
+            <div class="wrapper">
+
+                <div class="reviews__boxes">
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="./img/woman-1.jpg" alt="Smith Smith">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Debitis autem accusamus aliquam ipsum nam eveniet exercitationem totam unde
+                                veritatis
+                                fugit?
+
+                            </p>
+                            <strong>Smith Smith</strong>
+
+                        </div>
+                    </div>
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="./img/man-3.jpg" alt="Smith Smith">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Debitis autem accusamus aliquam ipsum nam eveniet exercitationem totam unde
+                                veritatis
+                                fugit?
+
+                            </p>
+                            <strong>Smith Smith</strong>
+
+                        </div>
+                    </div>
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-img">
+                            <img src="./img/woman-2.jpg" alt="Smith Smith">
+                        </div>
+                        <div class="reviews__box-info">
+                            <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+                            <p class="reviews__box-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Debitis autem accusamus aliquam ipsum nam eveniet exercitationem totam unde
+                                veritatis
+                                fugit?
+
+                            </p>
+                            <strong>Smith Smith</strong>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section section-padding contact white-section" id="contact">
+            <div class="white-block white-block__left"></div>
+            <div class="white-block white-block__right"></div>
+            <h2 class="section-title">Lorem ipsum dolor sit.</h2>
+            <div class="wrapper">
+
+                <form class="contact__form">
+                    <div class="contact__form-top">
+                        <label for="name" class="contact__form-label">Name and Surname</label>
+                        <input type="text" id="name" class="contact__form-input">
+                        <label for="email" class="contact__form-label">e-mail adress</label>
+                        <input type="text" id="email" class="contact__form-input">
+                    </div>
+                    <label for="msg" class="contact__form-label">Message</label>
+                    <textarea id="msg" class="contact__form-textarea"></textarea>
+
+                    <button type="submit" class="contact__form-btn btn-special-animation">Send</button>
+                </form>
+
+
+
+
+
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer__boxes">
+                <div class="footer__box">
+                    <h3 class="footer__box-title"><i class="fas fa-kiwi-bird">Tp Co.</i></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores impedit inventore eum atque
+                        dicta aperiam voluptatum ea mollitia commodi similique.</p>
+                    <div class="footer_box-social">
+                        <a href="#" class="footer__box-link"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#" class="footer__box-link"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="footer__box-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">Lorem, ipsum dolor.</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-item"><a href="#">Lorem</a></li>
+                        <li class="footer__box-item"><a href="#">Lorem</a></li>
+                        <li class="footer__box-item"><a href="#">Lorem</a></li>
+                        <li class="footer__box-item"><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">Lorem, ipsum dolor.</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-item"><a href="#">Lorem</a></li>
+                        <li class="footer__box-item"><a href="#">Lorem</a></li>
+                        <li class="footer__box-item"><a href="#">Lorem</a></li>
+                        <li class="footer__box-item"><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="footer__bottom-txt">&copy; <span class="footer__year"></span>LoremCity</p>
+
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
